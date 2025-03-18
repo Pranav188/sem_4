@@ -15,7 +15,7 @@ import java.util.Date;
 import java.util.List;
 
 @RestController
-@RequestMapping("/localEventManager")
+@RequestMapping("/localEvent")
 public class localEventController {
     @Autowired
     private services service;
